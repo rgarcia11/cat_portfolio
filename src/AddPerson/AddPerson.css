@@ -1,0 +1,40 @@
+.AddPerson {
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+}
+
+.AddPerson button {
+    display: inline-block;
+    padding: 0.46em 1.6em;
+    border: 1px solid blue;
+    margin: 0 0 0 0;
+    font: inherit;
+    font-weight: 300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color: green;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+.AddPerson input {
+    display: inline-block;
+}
+
+
+@media(min-width: 500px) {
+    .AddPerson {
+        width: 450px;
+    }
+}
+
+@media all and (max-width:30em) {
+    .AddPerson button {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
